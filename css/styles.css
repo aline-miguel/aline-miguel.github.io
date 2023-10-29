@@ -67,20 +67,17 @@
   #social-container {
     display: flex;
     justify-content: center;
-    list-style: none;
-    border-bottom: 1px solid var(--border-color);
-    margin-bottom: 25px;
-    padding-bottom: 25px;
   }
   
-  #social-container li {
+  #social-container ion-icon,
+  #social-container a {
     flex: 1 1 0;
-    max-width: 60px;
   }
   
-  #social-container li a {
-    color: var(--main-color);
-    font-size: 30px;
+  #social-container a {
+    color: var(--main-text-color);
+    text-decoration: none;
+    max-width: 225px;
   }
   
   #email-container {
